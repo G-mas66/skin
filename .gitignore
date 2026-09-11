@@ -37,6 +37,12 @@ weights/
 checkpoints/
 runs/
 outputs/
+*.tar
+*.tar.gz
+*.zip
+*.log
+*.pid
+*.exit
 
 # Credentials
 *.pem
