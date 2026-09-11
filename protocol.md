@@ -142,7 +142,7 @@
 - Optimizer = AdamW
 - Learning Rate = 1e-4
 - Weight Decay = 1e-4
-- Batch Size = 32
+- Batch Size = 16
 - Epoch = 50
 - Scheduler = None
 - Early Stopping = False
@@ -162,9 +162,9 @@
 - 不得根据某个 Epoch 的 Test 结果选择模型
 
 ### Batch Size
-- Batch Size 固定为 32
+- Batch Size 固定为 16
 - 除非当前实验明确研究 Batch Size，否则禁止修改
-- 如果某个实验因为显存不足无法使用 Batch Size = 32：
+- 如果某个实验因为显存不足无法使用 Batch Size = 16：
   - 不得自行降低
   - 必须先报告
   - 经明确确认后才能修改
@@ -387,7 +387,7 @@ Resolution Benchmark 中固定：
 - AdamW
 - Learning Rate = 1e-4
 - Weight Decay = 1e-4
-- Batch Size = 32
+- Batch Size = 16
 - Epoch = 50
 - CrossEntropyLoss
 - Scheduler = None
@@ -443,7 +443,7 @@ Resolution Benchmark 中固定：
 - Model
 - Model Parameter Count
 - Pretrained
-- Batch Size = 32
+- Batch Size = 16
 - Optimizer = AdamW
 - Learning Rate = 1e-4
 - Weight Decay = 1e-4
@@ -492,7 +492,7 @@ Git 可以保存：
 8. 不得重新划分 Train / Test
 9. 不得自行增加 Validation 集
 10. 使用 Seeds = 42、3407、2026
-11. 使用 Batch Size = 32
+11. 使用 Batch Size = 16
 12. 使用 AdamW
 13. 使用 Learning Rate = 1e-4
 14. 使用 Weight Decay = 1e-4

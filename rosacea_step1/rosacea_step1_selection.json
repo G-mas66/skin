@@ -1,0 +1,12 @@
+{
+  "selected_resolution": 384,
+  "primary_metric": "Macro-F1 mean across seeds",
+  "tie_breakers": [
+    "smaller Macro-F1 standard deviation",
+    "lower resolution"
+  ],
+  "macro_f1_mean": 0.610651103599293,
+  "macro_f1_std": 0.038094523929377726,
+  "accuracy_mean": 0.7149758454106281,
+  "accuracy_std": 0.012781407299828934
+}
