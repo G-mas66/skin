@@ -1,0 +1,45 @@
+# Python and editor state
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.idea/
+.vscode/
+.env
+
+# Medical images and data files must never enter Git
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.tiff
+*.dcm
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.json
+*.npy
+*.npz
+*.pkl
+*.pickle
+data/
+manifests/
+masks/
+cache/
+
+# Training artifacts and reports
+*.pt
+*.pth
+*.ckpt
+*.onnx
+weights/
+checkpoints/
+runs/
+outputs/
+
+# Credentials
+*.pem
+*.key
+id_rsa*
+id_ed25519*
