@@ -13,3 +13,6 @@ These requirements apply on every training run, including resumed and delegated
 runs. User instructions take precedence only when the user explicitly approves
 a protocol deviation; that deviation must be recorded in the experiment output.
 
+When the task, protocol, data, results, or requested change is unclear, the
+agent MUST stop and ask the user for clarification. The agent must not guess,
+silently choose an interpretation, or proceed with an unapproved change.
