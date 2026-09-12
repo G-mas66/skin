@@ -1,0 +1,46 @@
+START TRAIN name=m_mr modalities=M,MR seed=42 2026-09-12T00:37:49+08:00
+START TEST name=m_mr modalities=M,MR seed=42 2026-09-12T00:41:32+08:00
+DONE name=m_mr modalities=M,MR seed=42 2026-09-12T00:41:40+08:00
+START TRAIN name=m_mr modalities=M,MR seed=3407 2026-09-12T00:41:40+08:00
+START TEST name=m_mr modalities=M,MR seed=3407 2026-09-12T00:45:20+08:00
+DONE name=m_mr modalities=M,MR seed=3407 2026-09-12T00:45:28+08:00
+START TRAIN name=m_mr modalities=M,MR seed=2026 2026-09-12T00:45:28+08:00
+START TEST name=m_mr modalities=M,MR seed=2026 2026-09-12T00:49:09+08:00
+DONE name=m_mr modalities=M,MR seed=2026 2026-09-12T00:49:17+08:00
+START TRAIN name=m_mb modalities=M,MB seed=42 2026-09-12T00:49:17+08:00
+START TEST name=m_mb modalities=M,MB seed=42 2026-09-12T00:52:51+08:00
+DONE name=m_mb modalities=M,MB seed=42 2026-09-12T00:53:00+08:00
+START TRAIN name=m_mb modalities=M,MB seed=3407 2026-09-12T00:53:00+08:00
+START TEST name=m_mb modalities=M,MB seed=3407 2026-09-12T00:56:53+08:00
+DONE name=m_mb modalities=M,MB seed=3407 2026-09-12T00:57:01+08:00
+START TRAIN name=m_mb modalities=M,MB seed=2026 2026-09-12T00:57:01+08:00
+START TEST name=m_mb modalities=M,MB seed=2026 2026-09-12T01:00:59+08:00
+DONE name=m_mb modalities=M,MB seed=2026 2026-09-12T01:01:07+08:00
+START TRAIN name=m_mr_mb modalities=M,MR,MB seed=42 2026-09-12T01:01:07+08:00
+START TEST name=m_mr_mb modalities=M,MR,MB seed=42 2026-09-12T01:06:20+08:00
+DONE name=m_mr_mb modalities=M,MR,MB seed=42 2026-09-12T01:06:29+08:00
+START TRAIN name=m_mr_mb modalities=M,MR,MB seed=3407 2026-09-12T01:06:29+08:00
+START TEST name=m_mr_mb modalities=M,MR,MB seed=3407 2026-09-12T01:11:56+08:00
+DONE name=m_mr_mb modalities=M,MR,MB seed=3407 2026-09-12T01:12:05+08:00
+START TRAIN name=m_mr_mb modalities=M,MR,MB seed=2026 2026-09-12T01:12:05+08:00
+START TEST name=m_mr_mb modalities=M,MR,MB seed=2026 2026-09-12T01:17:11+08:00
+DONE name=m_mr_mb modalities=M,MR,MB seed=2026 2026-09-12T01:17:20+08:00
+START TRAIN name=mr_mb modalities=MR,MB seed=42 2026-09-12T01:17:20+08:00
+START TEST name=mr_mb modalities=MR,MB seed=42 2026-09-12T01:20:40+08:00
+DONE name=mr_mb modalities=MR,MB seed=42 2026-09-12T01:20:48+08:00
+START TRAIN name=mr_mb modalities=MR,MB seed=3407 2026-09-12T01:20:48+08:00
+START TEST name=mr_mb modalities=MR,MB seed=3407 2026-09-12T01:24:03+08:00
+DONE name=mr_mb modalities=MR,MB seed=3407 2026-09-12T01:24:12+08:00
+START TRAIN name=mr_mb modalities=MR,MB seed=2026 2026-09-12T01:24:12+08:00
+START TEST name=mr_mb modalities=MR,MB seed=2026 2026-09-12T01:27:23+08:00
+DONE name=mr_mb modalities=MR,MB seed=2026 2026-09-12T01:27:32+08:00
+START TRAIN name=all_channels modalities=M,MB,MP,MR,MUV seed=42 2026-09-12T01:27:32+08:00
+START TEST name=all_channels modalities=M,MB,MP,MR,MUV seed=42 2026-09-12T01:35:23+08:00
+DONE name=all_channels modalities=M,MB,MP,MR,MUV seed=42 2026-09-12T01:35:35+08:00
+START TRAIN name=all_channels modalities=M,MB,MP,MR,MUV seed=3407 2026-09-12T01:35:35+08:00
+START TEST name=all_channels modalities=M,MB,MP,MR,MUV seed=3407 2026-09-12T01:43:21+08:00
+DONE name=all_channels modalities=M,MB,MP,MR,MUV seed=3407 2026-09-12T01:43:32+08:00
+START TRAIN name=all_channels modalities=M,MB,MP,MR,MUV seed=2026 2026-09-12T01:43:32+08:00
+START TEST name=all_channels modalities=M,MB,MP,MR,MUV seed=2026 2026-09-12T01:51:24+08:00
+DONE name=all_channels modalities=M,MB,MP,MR,MUV seed=2026 2026-09-12T01:51:35+08:00
+REPORT_DONE 2026-09-12T01:51:37+08:00

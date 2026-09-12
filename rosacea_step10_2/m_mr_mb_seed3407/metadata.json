@@ -1,0 +1,20 @@
+{
+  "protocol_step": 10,
+  "seed": 3407,
+  "representative_model": "M + MR + MB",
+  "fusion_modalities": [
+    "M",
+    "MR",
+    "MB"
+  ],
+  "label_strategy": "adjacent_soft_label",
+  "checkpoint_source": "/root/skin/rosacea_step9/m_mr_mb_seed3407/last.pth",
+  "analysis": {
+    "attribution_samples": 207,
+    "attribution_target": "predicted_class",
+    "grouping": "true_label",
+    "baseline": "zero_normalized_input"
+  },
+  "test_images": 207,
+  "smoke_test": false
+}

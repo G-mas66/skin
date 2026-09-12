@@ -1,0 +1,143 @@
+{
+  "protocol_step": 9,
+  "benchmark": "multi_channel_soft_label",
+  "task": "five_class",
+  "label_strategy": "adjacent_soft_label",
+  "soft_label_rule": {
+    "true_class": 0.9,
+    "adjacent_class": 0.05,
+    "boundary_adjacent_class": 0.1
+  },
+  "combinations": [
+    {
+      "key": "m_mr",
+      "name": "M + MR",
+      "modalities": [
+        "M",
+        "MR"
+      ]
+    },
+    {
+      "key": "m_mb",
+      "name": "M + MB",
+      "modalities": [
+        "M",
+        "MB"
+      ]
+    },
+    {
+      "key": "m_mr_mb",
+      "name": "M + MR + MB",
+      "modalities": [
+        "M",
+        "MR",
+        "MB"
+      ]
+    },
+    {
+      "key": "mr_mb",
+      "name": "MR + MB",
+      "modalities": [
+        "MR",
+        "MB"
+      ]
+    },
+    {
+      "key": "all_channels",
+      "name": "All channels",
+      "modalities": [
+        "M",
+        "MB",
+        "MP",
+        "MR",
+        "MUV"
+      ]
+    }
+  ],
+  "seeds": [
+    42,
+    3407,
+    2026
+  ],
+  "input_resolution": "384x384",
+  "step6_hard_label_reference": "/root/skin/rosacea_step6",
+  "integrity": {
+    "excluded_ids": [
+      69,
+      296,
+      769,
+      770
+    ],
+    "train_images": 789,
+    "test_images": 207,
+    "train_patient_groups": 61,
+    "test_patient_groups": 21,
+    "train_test_patient_overlap": 0,
+    "train_class_counts": {
+      "0": 29,
+      "1": 101,
+      "2": 189,
+      "3": 282,
+      "4": 188
+    },
+    "test_class_counts": {
+      "0": 7,
+      "1": 22,
+      "2": 35,
+      "3": 44,
+      "4": 99
+    },
+    "combination_counts": {
+      "m_mr": {
+        "name": "M + MR",
+        "modalities": [
+          "M",
+          "MR"
+        ],
+        "train_images": 789,
+        "test_images": 207
+      },
+      "m_mb": {
+        "name": "M + MB",
+        "modalities": [
+          "M",
+          "MB"
+        ],
+        "train_images": 789,
+        "test_images": 207
+      },
+      "m_mr_mb": {
+        "name": "M + MR + MB",
+        "modalities": [
+          "M",
+          "MR",
+          "MB"
+        ],
+        "train_images": 789,
+        "test_images": 207
+      },
+      "mr_mb": {
+        "name": "MR + MB",
+        "modalities": [
+          "MR",
+          "MB"
+        ],
+        "train_images": 789,
+        "test_images": 207
+      },
+      "all_channels": {
+        "name": "All channels",
+        "modalities": [
+          "M",
+          "MB",
+          "MP",
+          "MR",
+          "MUV"
+        ],
+        "train_images": 789,
+        "test_images": 207
+      }
+    }
+  },
+  "smoke_test": false
+}

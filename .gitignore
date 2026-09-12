@@ -53,3 +53,14 @@ id_ed25519*
 # Anonymized Step 1 benchmark artifacts
 !rosacea_step1/*.csv
 !rosacea_step1/*.json
+
+# Anonymized Step 5-10 result artifacts (aggregate metrics and charts only)
+!rosacea_step5/**
+!rosacea_step6/**
+!rosacea_step7/**
+!rosacea_step8_2/**
+!rosacea_step9_2/**
+!rosacea_step10_2/**
+rosacea_step*/**/*.pth
+rosacea_step*/**/*.pt
+rosacea_step*/**/*.ckpt

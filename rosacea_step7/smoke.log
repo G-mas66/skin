@@ -1,0 +1,36 @@
+/root/miniconda3/lib/python3.12/site-packages/captum/attr/_core/deep_lift.py:296: UserWarning: Input Tensor 0 did not already require gradients, required_grads has been set automatically.
+  gradient_mask = apply_gradient_requirements(inputs_tuple)
+/root/miniconda3/lib/python3.12/site-packages/captum/log/dummy_log.py:54: UserWarning: Setting forward, backward hooks and attributes on non-linear
+               activations. The hooks and attributes will be removed
+            after the attribution is finished
+  return func(*args, **kwargs)
+Traceback (most recent call last):
+  File "/root/skin/step7.py", line 226, in <module>
+    main()
+  File "/root/skin/step7.py", line 204, in main
+    importance, analysis = analyze_seed(model, loader, device, max_batches)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/skin/step7.py", line 126, in analyze_seed
+    attribution = explainer.attribute(images, baselines=torch.zeros_like(images), target=target).abs()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/captum/log/dummy_log.py", line 54, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/captum/attr/_core/deep_lift.py", line 328, in attribute
+    gradients = self.gradient_func(wrapped_forward_func, inputs_tuple)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/captum/_utils/gradient.py", line 139, in compute_gradients
+    grads = torch.autograd.grad(torch.unbind(outputs), inputs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/torch/autograd/__init__.py", line 530, in grad
+    result = _engine_run_backward(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/torch/autograd/graph.py", line 882, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/captum/_utils/common.py", line 892, in input_tensor_hook
+    hook_out = hook(module, input_grad, grad_out[input_grad.device])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/captum/attr/_core/deep_lift.py", line 446, in _backward_hook
+    raise RuntimeError(
+RuntimeError: A Module ReLU(inplace=True) was detected that does not contain some of the input/output attributes that are required for DeepLift computations. This can occur, for example, if your module is being used more than once in the network.Please, ensure that module is being used only once in the network.

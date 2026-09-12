@@ -1,0 +1,181 @@
+scope,true_label,modality,importance,experiment,experiment_name,seed
+all,all,M,0.00016603107448298358,m_mb,M + MB,42
+all,all,MB,0.00015670258187967833,m_mb,M + MB,42
+true_label,0,M,0.00020097290065937808,m_mb,M + MB,42
+true_label,0,MB,0.00018728674123329775,m_mb,M + MB,42
+true_label,1,M,0.0001757842083779079,m_mb,M + MB,42
+true_label,1,MB,0.00014394946695326573,m_mb,M + MB,42
+true_label,2,M,0.00016934395202302508,m_mb,M + MB,42
+true_label,2,MB,0.0001582931269825037,m_mb,M + MB,42
+true_label,3,M,0.00015502370131964034,m_mb,M + MB,42
+true_label,3,MB,0.00015178285519306718,m_mb,M + MB,42
+true_label,4,M,0.0001651140248415888,m_mb,M + MB,42
+true_label,4,MB,0.00015899832053239353,m_mb,M + MB,42
+all,all,M,0.00010668089834620033,m_mb,M + MB,3407
+all,all,MB,9.885944855165475e-05,m_mb,M + MB,3407
+true_label,0,M,0.00012764016407475407,m_mb,M + MB,3407
+true_label,0,MB,0.00011482286312717147,m_mb,M + MB,3407
+true_label,1,M,9.643042341684287e-05,m_mb,M + MB,3407
+true_label,1,MB,8.123351190905933e-05,m_mb,M + MB,3407
+true_label,2,M,9.982066008628213e-05,m_mb,M + MB,3407
+true_label,2,MB,9.244879100671304e-05,m_mb,M + MB,3407
+true_label,3,M,0.00010625126353922745,m_mb,M + MB,3407
+true_label,3,MB,0.0001033378100394409,m_mb,M + MB,3407
+true_label,4,M,0.00011009309816996172,m_mb,M + MB,3407
+true_label,4,MB,0.00010192360801885676,m_mb,M + MB,3407
+all,all,M,0.0001126889299414602,m_mb,M + MB,2026
+all,all,MB,0.00010694812655399423,m_mb,M + MB,2026
+true_label,0,M,0.0001377705786061207,m_mb,M + MB,2026
+true_label,0,MB,0.00013115991064946035,m_mb,M + MB,2026
+true_label,1,M,0.00011366451177640225,m_mb,M + MB,2026
+true_label,1,MB,9.834246190042573e-05,m_mb,M + MB,2026
+true_label,2,M,0.00011346934479661286,m_mb,M + MB,2026
+true_label,2,MB,0.00010917391336988658,m_mb,M + MB,2026
+true_label,3,M,0.00011045071319544645,m_mb,M + MB,2026
+true_label,3,MB,0.00010622369104980449,m_mb,M + MB,2026
+true_label,4,M,0.00011141754084471331,m_mb,M + MB,2026
+true_label,4,MB,0.00010668362871240448,m_mb,M + MB,2026
+all,all,M,7.87505625937233e-05,m_mr_mb,M + MR + MB,42
+all,all,MR,8.956421698682046e-05,m_mr_mb,M + MR + MB,42
+all,all,MB,7.036703558310254e-05,m_mr_mb,M + MR + MB,42
+true_label,0,M,9.590869324581166e-05,m_mr_mb,M + MR + MB,42
+true_label,0,MR,0.00011150055485943864,m_mr_mb,M + MR + MB,42
+true_label,0,MB,8.449426708726346e-05,m_mr_mb,M + MR + MB,42
+true_label,1,M,7.705647691512819e-05,m_mr_mb,M + MR + MB,42
+true_label,1,MR,9.093469237665307e-05,m_mr_mb,M + MR + MB,42
+true_label,1,MB,6.308856063697021e-05,m_mr_mb,M + MR + MB,42
+true_label,2,M,8.098036154738761e-05,m_mr_mb,M + MR + MB,42
+true_label,2,MR,9.661876496725849e-05,m_mr_mb,M + MR + MB,42
+true_label,2,MB,7.231393413219069e-05,m_mr_mb,M + MR + MB,42
+true_label,3,M,7.612455614104296e-05,m_mr_mb,M + MR + MB,42
+true_label,3,MR,8.65275308321791e-05,m_mr_mb,M + MR + MB,42
+true_label,3,MB,7.000928615690844e-05,m_mr_mb,M + MR + MB,42
+true_label,4,M,7.82926254400118e-05,m_mr_mb,M + MR + MB,42
+true_label,4,MR,8.656421939829468e-05,m_mr_mb,M + MR + MB,42
+true_label,4,MB,7.045628147104502e-05,m_mr_mb,M + MR + MB,42
+all,all,M,6.787532505777255e-05,m_mr_mb,M + MR + MB,3407
+all,all,MR,8.228987491642381e-05,m_mr_mb,M + MR + MB,3407
+all,all,MB,6.201183324278183e-05,m_mr_mb,M + MR + MB,3407
+true_label,0,M,7.073719098116271e-05,m_mr_mb,M + MR + MB,3407
+true_label,0,MR,8.5722425345531e-05,m_mr_mb,M + MR + MB,3407
+true_label,0,MB,6.431814888076457e-05,m_mr_mb,M + MR + MB,3407
+true_label,1,M,6.953223915347321e-05,m_mr_mb,M + MR + MB,3407
+true_label,1,MR,8.51739304462998e-05,m_mr_mb,M + MR + MB,3407
+true_label,1,MB,5.583967553816778e-05,m_mr_mb,M + MR + MB,3407
+true_label,2,M,6.87520919849963e-05,m_mr_mb,M + MR + MB,3407
+true_label,2,MR,8.585975946126772e-05,m_mr_mb,M + MR + MB,3407
+true_label,2,MB,6.280171728576534e-05,m_mr_mb,M + MR + MB,3407
+true_label,3,M,6.385452872398838e-05,m_mr_mb,M + MR + MB,3407
+true_label,3,MR,7.955722701973917e-05,m_mr_mb,M + MR + MB,3407
+true_label,3,MB,6.058030678766293e-05,m_mr_mb,M + MR + MB,3407
+true_label,4,M,6.87818210280966e-05,m_mr_mb,M + MR + MB,3407
+true_label,4,MR,8.135869736886687e-05,m_mr_mb,M + MR + MB,3407
+true_label,4,MB,6.357733306658426e-05,m_mr_mb,M + MR + MB,3407
+all,all,M,6.710255677712821e-05,m_mr_mb,M + MR + MB,2026
+all,all,MR,8.035667737212554e-05,m_mr_mb,M + MR + MB,2026
+all,all,MB,6.167669184415957e-05,m_mr_mb,M + MR + MB,2026
+true_label,0,M,8.407966483251325e-05,m_mr_mb,M + MR + MB,2026
+true_label,0,MR,0.00010453997050977446,m_mr_mb,M + MR + MB,2026
+true_label,0,MB,7.561722668469884e-05,m_mr_mb,M + MR + MB,2026
+true_label,1,M,6.703363529099575e-05,m_mr_mb,M + MR + MB,2026
+true_label,1,MR,8.325842877225527e-05,m_mr_mb,M + MR + MB,2026
+true_label,1,MB,5.5961471265287734e-05,m_mr_mb,M + MR + MB,2026
+true_label,2,M,6.991627482680737e-05,m_mr_mb,M + MR + MB,2026
+true_label,2,MR,8.914623135102115e-05,m_mr_mb,M + MR + MB,2026
+true_label,2,MB,6.423769217300495e-05,m_mr_mb,M + MR + MB,2026
+true_label,3,M,6.202981248034948e-05,m_mr_mb,M + MR + MB,2026
+true_label,3,MR,7.454915761296765e-05,m_mr_mb,M + MR + MB,2026
+true_label,3,MB,5.892815591902366e-05,m_mr_mb,M + MR + MB,2026
+true_label,4,M,6.717727529861015e-05,m_mr_mb,M + MR + MB,2026
+true_label,4,MR,7.747561550896728e-05,m_mr_mb,M + MR + MB,2026
+true_label,4,MB,6.227721340367524e-05,m_mr_mb,M + MR + MB,2026
+all,all,M,2.5416144381045556e-05,all_channels,All channels,42
+all,all,MB,2.3496460486883928e-05,all_channels,All channels,42
+all,all,MP,3.030092868383677e-05,all_channels,All channels,42
+all,all,MR,3.012174810451604e-05,all_channels,All channels,42
+all,all,MUV,2.3170682507570483e-05,all_channels,All channels,42
+true_label,0,M,3.645542191017219e-05,all_channels,All channels,42
+true_label,0,MB,3.300693216650481e-05,all_channels,All channels,42
+true_label,0,MP,3.888679540458335e-05,all_channels,All channels,42
+true_label,0,MR,4.3364176755338644e-05,all_channels,All channels,42
+true_label,0,MUV,2.913063716342939e-05,all_channels,All channels,42
+true_label,1,M,2.6610437089402694e-05,all_channels,All channels,42
+true_label,1,MB,2.2004587828467432e-05,all_channels,All channels,42
+true_label,1,MP,3.0349648857901972e-05,all_channels,All channels,42
+true_label,1,MR,3.217942842390833e-05,all_channels,All channels,42
+true_label,1,MUV,2.3398832333689576e-05,all_channels,All channels,42
+true_label,2,M,2.501687626395973e-05,all_channels,All channels,42
+true_label,2,MB,2.3123636700412525e-05,all_channels,All channels,42
+true_label,2,MP,2.8693120059740196e-05,all_channels,All channels,42
+true_label,2,MR,3.244254148739856e-05,all_channels,All channels,42
+true_label,2,MUV,2.156493342876534e-05,all_channels,All channels,42
+true_label,3,M,2.469500408220814e-05,all_channels,All channels,42
+true_label,3,MB,2.3650726027633276e-05,all_channels,All channels,42
+true_label,3,MP,2.933259396410325e-05,all_channels,All channels,42
+true_label,3,MR,2.943049337938481e-05,all_channels,All channels,42
+true_label,3,MUV,2.238284477326405e-05,all_channels,All channels,42
+true_label,4,M,2.4831852906664616e-05,all_channels,All channels,42
+true_label,4,MB,2.3218774003908038e-05,all_channels,All channels,42
+true_label,4,MP,3.068180775138752e-05,all_channels,All channels,42
+true_label,4,MR,2.8214894156935954e-05,all_channels,All channels,42
+true_label,4,MUV,2.3616410066776985e-05,all_channels,All channels,42
+all,all,M,2.5071972569986132e-05,all_channels,All channels,3407
+all,all,MB,2.4667553966954925e-05,all_channels,All channels,3407
+all,all,MP,3.1233159733816964e-05,all_channels,All channels,3407
+all,all,MR,3.455994653674112e-05,all_channels,All channels,3407
+all,all,MUV,2.4741798330543805e-05,all_channels,All channels,3407
+true_label,0,M,2.7111702105945108e-05,all_channels,All channels,3407
+true_label,0,MB,2.577567361835723e-05,all_channels,All channels,3407
+true_label,0,MP,3.054786170001275e-05,all_channels,All channels,3407
+true_label,0,MR,3.6896408346365206e-05,all_channels,All channels,3407
+true_label,0,MUV,2.383878095965234e-05,all_channels,All channels,3407
+true_label,1,M,2.503727699315112e-05,all_channels,All channels,3407
+true_label,1,MB,2.232257421300429e-05,all_channels,All channels,3407
+true_label,1,MP,2.9718366601049308e-05,all_channels,All channels,3407
+true_label,1,MR,3.435430285621392e-05,all_channels,All channels,3407
+true_label,1,MUV,2.4003410709900148e-05,all_channels,All channels,3407
+true_label,2,M,2.4006425623416103e-05,all_channels,All channels,3407
+true_label,2,MB,2.3711928796339115e-05,all_channels,All channels,3407
+true_label,2,MP,2.8604185406168523e-05,all_channels,All channels,3407
+true_label,2,MR,3.4345729363849384e-05,all_channels,All channels,3407
+true_label,2,MUV,2.2450242561587532e-05,all_channels,All channels,3407
+true_label,3,M,2.5530966922815423e-05,all_channels,All channels,3407
+true_label,3,MB,2.5436678532225248e-05,all_channels,All channels,3407
+true_label,3,MP,3.172060699150527e-05,all_channels,All channels,3407
+true_label,3,MR,3.5111638267566875e-05,all_channels,All channels,3407
+true_label,3,MUV,2.497897755595411e-05,all_channels,All channels,3407
+true_label,4,M,2.5108169964626385e-05,all_channels,All channels,3407
+true_label,4,MB,2.5106322698205746e-05,all_channels,All channels,3407
+true_label,4,MP,3.233102776875691e-05,all_channels,All channels,3407
+true_label,4,MR,3.42709773218358e-05,all_channels,All channels,3407
+true_label,4,MUV,2.5674467097916124e-05,all_channels,All channels,3407
+all,all,M,3.380245049112895e-05,all_channels,All channels,2026
+all,all,MB,2.9677015951112505e-05,all_channels,All channels,2026
+all,all,MP,3.779045783336486e-05,all_channels,All channels,2026
+all,all,MR,3.8543416844885615e-05,all_channels,All channels,2026
+all,all,MUV,2.857936329825822e-05,all_channels,All channels,2026
+true_label,0,M,3.7332256657204456e-05,all_channels,All channels,2026
+true_label,0,MB,3.285986817250627e-05,all_channels,All channels,2026
+true_label,0,MP,3.685893092811706e-05,all_channels,All channels,2026
+true_label,0,MR,4.294416924364798e-05,all_channels,All channels,2026
+true_label,0,MUV,2.7577694449324292e-05,all_channels,All channels,2026
+true_label,1,M,3.365825936767082e-05,all_channels,All channels,2026
+true_label,1,MB,2.6175529042534023e-05,all_channels,All channels,2026
+true_label,1,MP,3.6074863766605795e-05,all_channels,All channels,2026
+true_label,1,MR,3.953436895575248e-05,all_channels,All channels,2026
+true_label,1,MUV,2.770612916885346e-05,all_channels,All channels,2026
+true_label,2,M,3.424030967705351e-05,all_channels,All channels,2026
+true_label,2,MB,3.0176061617177246e-05,all_channels,All channels,2026
+true_label,2,MP,3.604270901372989e-05,all_channels,All channels,2026
+true_label,2,MR,4.1946665286169655e-05,all_channels,All channels,2026
+true_label,2,MUV,2.690908617556228e-05,all_channels,All channels,2026
+true_label,3,M,3.261089188361604e-05,all_channels,All channels,2026
+true_label,3,MB,2.972499351017177e-05,all_channels,All channels,2026
+true_label,3,MP,3.7384518567374805e-05,all_channels,All channels,2026
+true_label,3,MR,3.753584707572538e-05,all_channels,All channels,2026
+true_label,3,MUV,2.816479296928843e-05,all_channels,All channels,2026
+true_label,4,M,3.395969359171248e-05,all_channels,All channels,2026
+true_label,4,MB,3.0032319946166345e-05,all_channels,All channels,2026
+true_label,4,MP,3.903587485458984e-05,all_channels,All channels,2026
+true_label,4,MR,3.725668082350037e-05,all_channels,All channels,2026
+true_label,4,MUV,2.9618995246680858e-05,all_channels,All channels,2026

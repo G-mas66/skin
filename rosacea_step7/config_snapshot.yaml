@@ -1,0 +1,75 @@
+project:
+  num_classes: 5
+  class_labels: [0, 1, 2, 3, 4]
+  split_seed: 2026
+
+audit:
+  expected_labelled_captures: 997
+
+data:
+  cache_long_edge: 2048
+  input_size: 384
+  jpeg_quality: 95
+  excluded_filenames: [M0069.JPG, MR0069.JPG, MR069.JPG]
+  native_width: 3448
+  native_height: 4600
+  resolution_candidates: [384]
+  local_crop_long_edge: 768
+
+augmentation:
+  horizontal_flip_p: 0.5
+  rotation_degrees: 7
+  brightness: 0.10
+  contrast: 0.10
+  saturation: 0.0
+  hue: 0.0
+
+training:
+  seeds: [42, 123, 3407]
+  warmup_epochs: 3
+  finetune_epochs: 97
+  minimum_epochs: 50
+  batch_size: 8
+  gradient_accumulation_steps: 2
+  num_workers: 4
+  warmup_head_lr: 0.0003
+  finetune_backbone_lr: 0.000003
+  finetune_head_lr: 0.0001
+  weight_decay: 0.001
+  dropout: 0.3
+  label_smoothing: 0.05
+  patient_balanced: true
+  early_stopping_patience: 8
+  early_stopping_min_delta: 0.0001
+  gradient_clip_norm: 1.0
+
+direct_training:
+  micro_batch_size: 32
+  gradient_accumulation_steps: 1
+  class_sampling_max_multiplier: 3.0
+  max_vram_fraction: 0.85
+
+storage:
+  min_free_gb: 2.0
+
+models:
+  names: [resnet18, resnet50, vit_small, mamba_vision_t, unetpp_encoder]
+  pretrained: true
+
+protocol_training:
+  step5:
+    epochs: 50
+    seeds: [42, 3407, 2026]
+    batch_size: 16
+    learning_rate: 0.0001
+    weight_decay: 0.0001
+    num_workers: 4
+    gradient_clip_norm: 1.0
+  step6:
+    epochs: 50
+    seeds: [42, 3407, 2026]
+    batch_size: 16
+    learning_rate: 0.0001
+    weight_decay: 0.0001
+    num_workers: 4
+    gradient_clip_norm: 1.0

@@ -1,0 +1,72 @@
+/root/miniconda3/lib/python3.12/site-packages/captum/attr/_core/deep_lift.py:296: UserWarning: Input Tensor 0 did not already require gradients, required_grads has been set automatically.
+  gradient_mask = apply_gradient_requirements(inputs_tuple)
+/root/miniconda3/lib/python3.12/site-packages/captum/log/dummy_log.py:54: UserWarning: Setting forward, backward hooks and attributes on non-linear
+               activations. The hooks and attributes will be removed
+            after the attribution is finished
+  return func(*args, **kwargs)
+/root/miniconda3/lib/python3.12/site-packages/torch/nn/functional.py:1045: UserWarning: max_unpooling2d_forward_out does not have a deterministic implementation, but you set 'torch.use_deterministic_algorithms(True, warn_only=True)'. You can file an issue at https://github.com/pytorch/pytorch/issues to help us prioritize adding deterministic support for this operation. (Triggered internally at /pytorch/aten/src/ATen/Context.cpp:160.)
+  return torch._C._nn.max_unpool2d(input, indices, output_size)
+/root/miniconda3/lib/python3.12/site-packages/captum/attr/_core/deep_lift.py:296: UserWarning: Input Tensor 0 did not already require gradients, required_grads has been set automatically.
+  gradient_mask = apply_gradient_requirements(inputs_tuple)
+/root/miniconda3/lib/python3.12/site-packages/captum/log/dummy_log.py:54: UserWarning: Setting forward, backward hooks and attributes on non-linear
+               activations. The hooks and attributes will be removed
+            after the attribution is finished
+  return func(*args, **kwargs)
+/root/miniconda3/lib/python3.12/site-packages/torch/nn/functional.py:1045: UserWarning: max_unpooling2d_forward_out does not have a deterministic implementation, but you set 'torch.use_deterministic_algorithms(True, warn_only=True)'. You can file an issue at https://github.com/pytorch/pytorch/issues to help us prioritize adding deterministic support for this operation. (Triggered internally at /pytorch/aten/src/ATen/Context.cpp:160.)
+  return torch._C._nn.max_unpool2d(input, indices, output_size)
+/root/miniconda3/lib/python3.12/site-packages/captum/attr/_core/deep_lift.py:296: UserWarning: Input Tensor 0 did not already require gradients, required_grads has been set automatically.
+  gradient_mask = apply_gradient_requirements(inputs_tuple)
+/root/miniconda3/lib/python3.12/site-packages/captum/log/dummy_log.py:54: UserWarning: Setting forward, backward hooks and attributes on non-linear
+               activations. The hooks and attributes will be removed
+            after the attribution is finished
+  return func(*args, **kwargs)
+/root/miniconda3/lib/python3.12/site-packages/torch/nn/functional.py:1045: UserWarning: max_unpooling2d_forward_out does not have a deterministic implementation, but you set 'torch.use_deterministic_algorithms(True, warn_only=True)'. You can file an issue at https://github.com/pytorch/pytorch/issues to help us prioritize adding deterministic support for this operation. (Triggered internally at /pytorch/aten/src/ATen/Context.cpp:160.)
+  return torch._C._nn.max_unpool2d(input, indices, output_size)
+/root/miniconda3/lib/python3.12/site-packages/captum/attr/_core/deep_lift.py:296: UserWarning: Input Tensor 0 did not already require gradients, required_grads has been set automatically.
+  gradient_mask = apply_gradient_requirements(inputs_tuple)
+/root/miniconda3/lib/python3.12/site-packages/captum/log/dummy_log.py:54: UserWarning: Setting forward, backward hooks and attributes on non-linear
+               activations. The hooks and attributes will be removed
+            after the attribution is finished
+  return func(*args, **kwargs)
+/root/miniconda3/lib/python3.12/site-packages/torch/nn/functional.py:1045: UserWarning: max_unpooling2d_forward_out does not have a deterministic implementation, but you set 'torch.use_deterministic_algorithms(True, warn_only=True)'. You can file an issue at https://github.com/pytorch/pytorch/issues to help us prioritize adding deterministic support for this operation. (Triggered internally at /pytorch/aten/src/ATen/Context.cpp:160.)
+  return torch._C._nn.max_unpool2d(input, indices, output_size)
+/root/miniconda3/lib/python3.12/site-packages/captum/attr/_core/deep_lift.py:296: UserWarning: Input Tensor 0 did not already require gradients, required_grads has been set automatically.
+  gradient_mask = apply_gradient_requirements(inputs_tuple)
+/root/miniconda3/lib/python3.12/site-packages/captum/log/dummy_log.py:54: UserWarning: Setting forward, backward hooks and attributes on non-linear
+               activations. The hooks and attributes will be removed
+            after the attribution is finished
+  return func(*args, **kwargs)
+/root/miniconda3/lib/python3.12/site-packages/torch/nn/functional.py:1045: UserWarning: max_unpooling2d_forward_out does not have a deterministic implementation, but you set 'torch.use_deterministic_algorithms(True, warn_only=True)'. You can file an issue at https://github.com/pytorch/pytorch/issues to help us prioritize adding deterministic support for this operation. (Triggered internally at /pytorch/aten/src/ATen/Context.cpp:160.)
+  return torch._C._nn.max_unpool2d(input, indices, output_size)
+/root/miniconda3/lib/python3.12/site-packages/captum/attr/_core/deep_lift.py:296: UserWarning: Input Tensor 0 did not already require gradients, required_grads has been set automatically.
+  gradient_mask = apply_gradient_requirements(inputs_tuple)
+/root/miniconda3/lib/python3.12/site-packages/captum/log/dummy_log.py:54: UserWarning: Setting forward, backward hooks and attributes on non-linear
+               activations. The hooks and attributes will be removed
+            after the attribution is finished
+  return func(*args, **kwargs)
+/root/miniconda3/lib/python3.12/site-packages/torch/nn/functional.py:1045: UserWarning: max_unpooling2d_forward_out does not have a deterministic implementation, but you set 'torch.use_deterministic_algorithms(True, warn_only=True)'. You can file an issue at https://github.com/pytorch/pytorch/issues to help us prioritize adding deterministic support for this operation. (Triggered internally at /pytorch/aten/src/ATen/Context.cpp:160.)
+  return torch._C._nn.max_unpool2d(input, indices, output_size)
+/root/miniconda3/lib/python3.12/site-packages/captum/attr/_core/deep_lift.py:296: UserWarning: Input Tensor 0 did not already require gradients, required_grads has been set automatically.
+  gradient_mask = apply_gradient_requirements(inputs_tuple)
+/root/miniconda3/lib/python3.12/site-packages/captum/log/dummy_log.py:54: UserWarning: Setting forward, backward hooks and attributes on non-linear
+               activations. The hooks and attributes will be removed
+            after the attribution is finished
+  return func(*args, **kwargs)
+/root/miniconda3/lib/python3.12/site-packages/torch/nn/functional.py:1045: UserWarning: max_unpooling2d_forward_out does not have a deterministic implementation, but you set 'torch.use_deterministic_algorithms(True, warn_only=True)'. You can file an issue at https://github.com/pytorch/pytorch/issues to help us prioritize adding deterministic support for this operation. (Triggered internally at /pytorch/aten/src/ATen/Context.cpp:160.)
+  return torch._C._nn.max_unpool2d(input, indices, output_size)
+/root/miniconda3/lib/python3.12/site-packages/captum/attr/_core/deep_lift.py:296: UserWarning: Input Tensor 0 did not already require gradients, required_grads has been set automatically.
+  gradient_mask = apply_gradient_requirements(inputs_tuple)
+/root/miniconda3/lib/python3.12/site-packages/captum/log/dummy_log.py:54: UserWarning: Setting forward, backward hooks and attributes on non-linear
+               activations. The hooks and attributes will be removed
+            after the attribution is finished
+  return func(*args, **kwargs)
+/root/miniconda3/lib/python3.12/site-packages/torch/nn/functional.py:1045: UserWarning: max_unpooling2d_forward_out does not have a deterministic implementation, but you set 'torch.use_deterministic_algorithms(True, warn_only=True)'. You can file an issue at https://github.com/pytorch/pytorch/issues to help us prioritize adding deterministic support for this operation. (Triggered internally at /pytorch/aten/src/ATen/Context.cpp:160.)
+  return torch._C._nn.max_unpool2d(input, indices, output_size)
+/root/miniconda3/lib/python3.12/site-packages/captum/attr/_core/deep_lift.py:296: UserWarning: Input Tensor 0 did not already require gradients, required_grads has been set automatically.
+  gradient_mask = apply_gradient_requirements(inputs_tuple)
+/root/miniconda3/lib/python3.12/site-packages/captum/log/dummy_log.py:54: UserWarning: Setting forward, backward hooks and attributes on non-linear
+               activations. The hooks and attributes will be removed
+            after the attribution is finished
+  return func(*args, **kwargs)
+/root/miniconda3/lib/python3.12/site-packages/torch/nn/functional.py:1045: UserWarning: max_unpooling2d_forward_out does not have a deterministic implementation, but you set 'torch.use_deterministic_algorithms(True, warn_only=True)'. You can file an issue at https://github.com/pytorch/pytorch/issues to help us prioritize adding deterministic support for this operation. (Triggered internally at /pytorch/aten/src/ATen/Context.cpp:160.)
+  return torch._C._nn.max_unpool2d(input, indices, output_size)

@@ -1,0 +1,71 @@
+{
+  "protocol_step": 7,
+  "task": "five_class",
+  "representative_models": [
+    {
+      "key": "m_mb",
+      "name": "M + MB",
+      "fusion_modalities": [
+        "M",
+        "MB"
+      ]
+    },
+    {
+      "key": "m_mr_mb",
+      "name": "M + MR + MB",
+      "fusion_modalities": [
+        "M",
+        "MR",
+        "MB"
+      ]
+    },
+    {
+      "key": "all_channels",
+      "name": "All channels",
+      "fusion_modalities": [
+        "M",
+        "MB",
+        "MP",
+        "MR",
+        "MUV"
+      ]
+    }
+  ],
+  "seeds": [
+    42,
+    3407,
+    2026
+  ],
+  "input_resolution": "384x384",
+  "test_images": 207,
+  "deep_lift_target": "predicted_class",
+  "perturbation": "zero normalized RGB triplet",
+  "integrity": {
+    "excluded_ids": [
+      69,
+      296,
+      769,
+      770
+    ],
+    "train_images": 789,
+    "test_images": 207,
+    "train_patient_groups": 61,
+    "test_patient_groups": 21,
+    "train_test_patient_overlap": 0,
+    "train_class_counts": {
+      "0": 29,
+      "1": 101,
+      "2": 189,
+      "3": 282,
+      "4": 188
+    },
+    "test_class_counts": {
+      "0": 7,
+      "1": 22,
+      "2": 35,
+      "3": 44,
+      "4": 99
+    }
+  },
+  "smoke_test": false
+}

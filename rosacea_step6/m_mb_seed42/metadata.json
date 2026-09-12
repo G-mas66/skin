@@ -1,0 +1,54 @@
+{
+  "protocol_step": 6,
+  "experiment": "M + MB",
+  "task": "five_class",
+  "label_strategy": "hard_label",
+  "modality": "ALL",
+  "fusion_modalities": [
+    "M",
+    "MB"
+  ],
+  "required_modalities": [
+    "M",
+    "MB",
+    "MP",
+    "MR",
+    "MUV"
+  ],
+  "seed": 42,
+  "model_name": "resnet50",
+  "pretrained": true,
+  "conv1_initialization": "ImageNet conv1 RGB weights repeated and divided by modality count",
+  "input_channels": 6,
+  "input_size": 384,
+  "input_resolution": "384x384",
+  "batch_size": 16,
+  "optimizer": "AdamW",
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0001,
+  "epochs_planned": 50,
+  "scheduler": null,
+  "early_stopping": false,
+  "loss": "CrossEntropyLoss",
+  "train_images": 789,
+  "train_patient_groups": 61,
+  "excluded_ids": [
+    69,
+    296,
+    769,
+    770
+  ],
+  "device": "cuda",
+  "gpu_name": "NVIDIA GeForce RTX 4090 D",
+  "smoke_test": false,
+  "test_used": true,
+  "input_cache": {
+    "mode": "resized_jpeg_once",
+    "root": "/root/autodl-tmp/cea_step5_cache_384",
+    "resolution": "384x384"
+  },
+  "epochs_completed": 50,
+  "training_seconds": 207.48679120093584,
+  "checkpoint": "last.pth",
+  "test_images": 207
+}

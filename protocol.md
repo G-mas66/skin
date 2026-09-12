@@ -405,7 +405,31 @@ Resolution Benchmark 中固定：
 
 分辨率确定后，后续正式 Benchmark 默认固定使用该分辨率。
 
-## 16. 数据完整性检查
+### 15.1 第一阶段结论
+
+- Resolution Benchmark 已完成。
+- 已确定后续正式实验的默认输入分辨率为 `384 × 384`。
+- 除非当前实验明确是新的 Resolution Benchmark，后续实验不得自行修改该分辨率。
+- 后续实验配置、metadata 和 HTML 报告必须记录 `Input Resolution = 384 × 384`。
+
+## 16. 实验结果目录
+
+- 每次训练、评估和 Benchmark 的结果必须保存到仓库内对应的 `rosacea_stepN/` 目录。
+- 每个正式运行必须使用独立的运行子目录，例如：
+
+  ```text
+  skin/rosacea_step2/white_seed42/
+  skin/rosacea_step2/multichannel_seed3407/
+  ```
+
+- 运行子目录至少保存实际配置、训练历史、指标、checkpoint、预测结果和日志；Benchmark 根目录保存汇总 CSV/JSON、图表和 HTML 报告。
+- Benchmark 可视化报告必须直接保存为 `skin/rosacea_stepN/rosacea_stepN_report.html`，不得默认放入 seed 或 run 子目录。
+- 使用直接读取实验报告工具时，`--direct-root` 应指向 `skin/rosacea_stepN/`，报告文件名固定为对应的 `rosacea_stepN_report.html`。
+- 训练入口必须拒绝写入 `skin` 根目录、任意其他步骤目录之外的位置，或未包含 `rosacea_stepN` 的路径。
+- `rosacea_stepN/` 目录及其子目录禁止保存原始医学图片、全量图片缓存、患者身份信息或原始患者级数据。
+- HTML 报告和结果归档必须使用当前实验实际生成的文件，不得混入其他 Step 或历史实验结果。
+
+## 17. 数据完整性检查
 每次实验开始前必须检查：
 
 - 69 是否排除
@@ -430,7 +454,7 @@ Resolution Benchmark 中固定：
 - 先修复数据问题
 - 不允许带着数据错误继续实验
 
-## 17. 每次实验必须记录
+## 18. 每次实验必须记录
 - Experiment Name
 - Benchmark 类型
 - 二分类 / 五分类
@@ -459,7 +483,7 @@ Resolution Benchmark 中固定：
 
 三个 Seed 全部完成后必须生成最终汇总结果。
 
-## 18. 团队协作规则
+## 19. 团队协作规则
 - 所有协作者必须读取并遵守本 Protocol
 - 所有协作者使用完全相同的 Train / Test 数据
 - 所有协作者使用相同三个 Seed
@@ -479,7 +503,7 @@ Git 可以保存：
 
 任何修改 Protocol 的实验必须明确注明，不得与标准 Benchmark 结果直接混合比较。
 
-## 19. Model / Agent 执行规则
+## 20. Model / Agent 执行规则
 任何 Model / Agent 在开始正式实验前必须：
 
 1. 首先读取 protocol.md

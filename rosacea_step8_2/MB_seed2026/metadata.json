@@ -1,0 +1,54 @@
+{
+  "protocol_step": 8,
+  "task": "five_class",
+  "label_strategy": "adjacent_soft_label",
+  "soft_label_rule": {
+    "true_class": 0.9,
+    "adjacent_class": 0.05,
+    "boundary_adjacent_class": 0.1
+  },
+  "modality": "MB",
+  "seed": 2026,
+  "model_name": "resnet50",
+  "model_parameter_count": 23518277,
+  "pretrained": true,
+  "input_size": 384,
+  "input_resolution": "384x384",
+  "batch_size": 16,
+  "optimizer": "AdamW",
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0001,
+  "epochs_planned": 50,
+  "scheduler": null,
+  "early_stopping": false,
+  "loss": "AdjacentSoftLabelCrossEntropy",
+  "augmentation": {
+    "horizontal_flip_p": 0.5,
+    "rotation_degrees": 7,
+    "brightness": 0.1,
+    "contrast": 0.1,
+    "saturation": 0.0,
+    "hue": 0.0
+  },
+  "train_images": 789,
+  "test_images": 207,
+  "train_patient_groups": 61,
+  "excluded_ids": [
+    69,
+    296,
+    769,
+    770
+  ],
+  "device": "cuda",
+  "gpu_name": "NVIDIA GeForce RTX 4090 D",
+  "smoke_test": false,
+  "test_used": true,
+  "input_cache": {
+    "mode": "resized_jpeg_once",
+    "root": "/root/autodl-tmp/cea_step5_cache_384",
+    "resolution": "384x384"
+  },
+  "epochs_completed": 50,
+  "training_seconds": 133.97299778461456,
+  "checkpoint": "last.pth"
+}

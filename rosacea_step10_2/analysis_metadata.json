@@ -1,0 +1,110 @@
+{
+  "protocol_step": 10,
+  "benchmark": "soft_label_deeplift_channel_perturbation",
+  "task": "five_class",
+  "label_strategy": "adjacent_soft_label",
+  "representative_models": [
+    {
+      "key": "m_mb",
+      "name": "M + MB",
+      "fusion_modalities": [
+        "M",
+        "MB"
+      ]
+    },
+    {
+      "key": "m_mr_mb",
+      "name": "M + MR + MB",
+      "fusion_modalities": [
+        "M",
+        "MR",
+        "MB"
+      ]
+    },
+    {
+      "key": "all_channels",
+      "name": "All channels",
+      "fusion_modalities": [
+        "M",
+        "MB",
+        "MP",
+        "MR",
+        "MUV"
+      ]
+    }
+  ],
+  "seeds": [
+    42,
+    3407,
+    2026
+  ],
+  "input_resolution": "384x384",
+  "step9_soft_label_reference": "/root/skin/rosacea_step9",
+  "integrity": {
+    "excluded_ids": [
+      69,
+      296,
+      769,
+      770
+    ],
+    "train_images": 789,
+    "test_images": 207,
+    "train_patient_groups": 61,
+    "test_patient_groups": 21,
+    "train_test_patient_overlap": 0,
+    "train_class_counts": {
+      "0": 29,
+      "1": 101,
+      "2": 189,
+      "3": 282,
+      "4": 188
+    },
+    "test_class_counts": {
+      "0": 7,
+      "1": 22,
+      "2": 35,
+      "3": 44,
+      "4": 99
+    },
+    "combination_counts": {
+      "m_mb": {
+        "name": "M + MB",
+        "modalities": [
+          "M",
+          "MB"
+        ],
+        "train_images": 789,
+        "test_images": 207
+      },
+      "m_mr_mb": {
+        "name": "M + MR + MB",
+        "modalities": [
+          "M",
+          "MR",
+          "MB"
+        ],
+        "train_images": 789,
+        "test_images": 207
+      },
+      "all_channels": {
+        "name": "All channels",
+        "modalities": [
+          "M",
+          "MB",
+          "MP",
+          "MR",
+          "MUV"
+        ],
+        "train_images": 789,
+        "test_images": 207
+      }
+    }
+  },
+  "deep_lift_target": "predicted_class",
+  "perturbation": "zero normalized RGB triplet",
+  "hard_label_comparison": {
+    "status": "unavailable",
+    "reason": "Formal Step 7 Hard Label interpretability results were not present; Step 7 previously stopped at the DeepLIFT smoke-test failure. No Hard Label result was reconstructed or selected by Test performance."
+  },
+  "smoke_test": false
+}

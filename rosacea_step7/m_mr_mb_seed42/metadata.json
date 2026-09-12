@@ -1,0 +1,17 @@
+{
+  "protocol_step": 7,
+  "seed": 42,
+  "representative_model": "M + MR + MB",
+  "fusion_modalities": [
+    "M",
+    "MR",
+    "MB"
+  ],
+  "analysis": {
+    "attribution_samples": 207,
+    "attribution_target": "predicted_class",
+    "grouping": "true_label"
+  },
+  "test_images": 207,
+  "smoke_test": false
+}

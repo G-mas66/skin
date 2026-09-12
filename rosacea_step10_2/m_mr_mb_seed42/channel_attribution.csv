@@ -1,0 +1,19 @@
+scope,true_label,modality,importance,experiment,experiment_name,seed
+all,all,M,7.87505625937233e-05,m_mr_mb,M + MR + MB,42
+all,all,MR,8.956421698682046e-05,m_mr_mb,M + MR + MB,42
+all,all,MB,7.036703558310254e-05,m_mr_mb,M + MR + MB,42
+true_label,0,M,9.590869324581166e-05,m_mr_mb,M + MR + MB,42
+true_label,0,MR,0.00011150055485943864,m_mr_mb,M + MR + MB,42
+true_label,0,MB,8.449426708726346e-05,m_mr_mb,M + MR + MB,42
+true_label,1,M,7.705647691512819e-05,m_mr_mb,M + MR + MB,42
+true_label,1,MR,9.093469237665307e-05,m_mr_mb,M + MR + MB,42
+true_label,1,MB,6.308856063697021e-05,m_mr_mb,M + MR + MB,42
+true_label,2,M,8.098036154738761e-05,m_mr_mb,M + MR + MB,42
+true_label,2,MR,9.661876496725849e-05,m_mr_mb,M + MR + MB,42
+true_label,2,MB,7.231393413219069e-05,m_mr_mb,M + MR + MB,42
+true_label,3,M,7.612455614104296e-05,m_mr_mb,M + MR + MB,42
+true_label,3,MR,8.65275308321791e-05,m_mr_mb,M + MR + MB,42
+true_label,3,MB,7.000928615690844e-05,m_mr_mb,M + MR + MB,42
+true_label,4,M,7.82926254400118e-05,m_mr_mb,M + MR + MB,42
+true_label,4,MR,8.656421939829468e-05,m_mr_mb,M + MR + MB,42
+true_label,4,MB,7.045628147104502e-05,m_mr_mb,M + MR + MB,42

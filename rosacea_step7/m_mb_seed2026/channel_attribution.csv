@@ -1,0 +1,13 @@
+scope,true_label,modality,importance,experiment,experiment_name,seed
+all,all,M,0.00028569812088943835,m_mb,M + MB,2026
+all,all,MB,0.0002600219196882909,m_mb,M + MB,2026
+true_label,0,M,0.000310937113161864,m_mb,M + MB,2026
+true_label,0,MB,0.00027611229078112435,m_mb,M + MB,2026
+true_label,1,M,0.00024782987086589196,m_mb,M + MB,2026
+true_label,1,MB,0.00019801017928826198,m_mb,M + MB,2026
+true_label,2,M,0.0002420178662370225,m_mb,M + MB,2026
+true_label,2,MB,0.00021779823146061972,m_mb,M + MB,2026
+true_label,3,M,0.00032772311004175043,m_mb,M + MB,2026
+true_label,3,MB,0.000304289955238346,m_mb,M + MB,2026
+true_label,4,M,0.0002890934532236618,m_mb,M + MB,2026
+true_label,4,MB,0.0002679174865603052,m_mb,M + MB,2026
